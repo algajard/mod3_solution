@@ -1,0 +1,80 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.bg-color-gray {
+    background-color: gray !important;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+.navbar-default .nav li > a {
+    color: black;
+}
+
+.navbar-default ul {
+    background-color: white;
+}
+
+.navbar-default li:hover {
+    background-color: lightgray;
+}
+
+.navbar-toggle .icon-bar{
+    color: black;
+}
+
+.menu-tab {
+    width: 33%;
+    margin: 1px;
+    padding: 10px;
+}
+
+[class*="col-"]{
+    height: 400px;
+    overflow-y: auto;
+}
+
+.nav {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    ul > li {
+        display: none;
+    }
+}
+
+/* Layout: In the tablet view (between 768px and 991px, inclusively)  */
+@media (min-width: 768px) and (max-width:991px) {
+    .menu-tab {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .nav {
+        color: black;
+        display: block;
+    }
+}
+
+/* Layout: In the mobile view (equal to or less than 767px) */
+@media (max-width:767px) {
+    .menu-tab {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .nav {
+        color: black;
+        display: block;
+    }
+}
